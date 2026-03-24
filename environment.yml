@@ -1,0 +1,25 @@
+# Conda environment file for Word2Vec Assignment
+# Create environment: conda env create -f environment.yml
+# Activate: conda activate nlu_w2v
+
+name: nlu_w2v
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - gensim>=4.0.0
+  - numpy>=1.21.0
+  - pandas>=1.3.0
+  - matplotlib>=3.4.0
+  - seaborn>=0.11.0
+  - scikit-learn>=0.24.0
+  - nltk>=3.6.0
+  - tqdm>=4.60.0
+  - pip
+  - pip:
+    - wordcloud>=1.8.0
+    - beautifulsoup4>=4.9.0
+    - requests>=2.25.0
+    - PyPDF2>=2.0.0
+    - lxml>=4.6.0

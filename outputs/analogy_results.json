@@ -1,0 +1,480 @@
+{
+  "cbow": [
+    {
+      "analogy": "ug : btech :: pg : ?",
+      "explanation": "UG is to BTech as PG is to ?",
+      "expected": "mtech",
+      "cbow_results": [
+        {
+          "word": "and",
+          "score": 0.895868182182312
+        },
+        {
+          "word": "of",
+          "score": 0.8913445472717285
+        },
+        {
+          "word": "professor",
+          "score": 0.8907595276832581
+        },
+        {
+          "word": "students",
+          "score": 0.8893505930900574
+        },
+        {
+          "word": "in",
+          "score": 0.8860756754875183
+        }
+      ],
+      "cbow_correct": false
+    },
+    {
+      "analogy": "student : learn :: faculty : ?",
+      "explanation": "Student is to Learn as Faculty is to ?",
+      "expected": "teach",
+      "cbow_results": [
+        {
+          "word": "to",
+          "score": 0.8429663777351379
+        },
+        {
+          "word": "students",
+          "score": 0.8427004814147949
+        },
+        {
+          "word": "and",
+          "score": 0.8309515118598938
+        },
+        {
+          "word": "years",
+          "score": 0.827831506729126
+        },
+        {
+          "word": "campus",
+          "score": 0.8254409432411194
+        }
+      ],
+      "cbow_correct": false
+    },
+    {
+      "analogy": "phd : research :: btech : ?",
+      "explanation": "PhD is to Research as BTech is to ?",
+      "expected": "project",
+      "cbow_results": [
+        {
+          "word": "and",
+          "score": 0.8407983183860779
+        },
+        {
+          "word": "learn",
+          "score": 0.8308686017990112
+        },
+        {
+          "word": "exam",
+          "score": 0.8294429183006287
+        },
+        {
+          "word": "of",
+          "score": 0.8283814191818237
+        },
+        {
+          "word": "students",
+          "score": 0.8278130292892456
+        }
+      ],
+      "cbow_correct": false
+    },
+    {
+      "analogy": "mtech : postgraduate :: btech : ?",
+      "explanation": "MTech is to Postgraduate as BTech is to ?",
+      "expected": "undergraduate",
+      "cbow_results": [
+        {
+          "word": "ug",
+          "score": 0.7585504651069641
+        },
+        {
+          "word": "the",
+          "score": 0.7358346581459045
+        },
+        {
+          "word": "two",
+          "score": 0.7347733378410339
+        },
+        {
+          "word": "department",
+          "score": 0.7282816767692566
+        },
+        {
+          "word": "and",
+          "score": 0.7241726517677307
+        }
+      ],
+      "cbow_correct": false
+    },
+    {
+      "analogy": "semester : exam :: course : ?",
+      "explanation": "Semester is to Exam as Course is to ?",
+      "expected": "assignment",
+      "cbow_results": [
+        {
+          "word": "learn",
+          "score": 0.8685401678085327
+        },
+        {
+          "word": "students",
+          "score": 0.8637875914573669
+        },
+        {
+          "word": "to",
+          "score": 0.8609049320220947
+        },
+        {
+          "word": "and",
+          "score": 0.8556822538375854
+        },
+        {
+          "word": "student",
+          "score": 0.8548325300216675
+        }
+      ],
+      "cbow_correct": false
+    },
+    {
+      "analogy": "department : professor :: hostel : ?",
+      "explanation": "Department is to Professor as Hostel is to ?",
+      "expected": "student",
+      "cbow_results": [
+        {
+          "word": "and",
+          "score": 0.9093328714370728
+        },
+        {
+          "word": "the",
+          "score": 0.9072449207305908
+        },
+        {
+          "word": "for",
+          "score": 0.9056199789047241
+        },
+        {
+          "word": "students",
+          "score": 0.9044457077980042
+        },
+        {
+          "word": "pg",
+          "score": 0.9005986452102661
+        }
+      ],
+      "cbow_correct": false
+    }
+  ],
+  "skipgram": [
+    {
+      "analogy": "ug : btech :: pg : ?",
+      "explanation": "UG is to BTech as PG is to ?",
+      "expected": "mtech",
+      "cbow_results": [
+        {
+          "word": "and",
+          "score": 0.895868182182312
+        },
+        {
+          "word": "of",
+          "score": 0.8913445472717285
+        },
+        {
+          "word": "professor",
+          "score": 0.8907595276832581
+        },
+        {
+          "word": "students",
+          "score": 0.8893505930900574
+        },
+        {
+          "word": "in",
+          "score": 0.8860756754875183
+        }
+      ],
+      "cbow_correct": false,
+      "skipgram_results": [
+        {
+          "word": "and",
+          "score": 0.9967401623725891
+        },
+        {
+          "word": "professor",
+          "score": 0.9965202808380127
+        },
+        {
+          "word": "before",
+          "score": 0.9964525699615479
+        },
+        {
+          "word": "mtech",
+          "score": 0.9963228702545166
+        },
+        {
+          "word": "a",
+          "score": 0.9962838292121887
+        }
+      ],
+      "skipgram_correct": true
+    },
+    {
+      "analogy": "student : learn :: faculty : ?",
+      "explanation": "Student is to Learn as Faculty is to ?",
+      "expected": "teach",
+      "cbow_results": [
+        {
+          "word": "to",
+          "score": 0.8429663777351379
+        },
+        {
+          "word": "students",
+          "score": 0.8427004814147949
+        },
+        {
+          "word": "and",
+          "score": 0.8309515118598938
+        },
+        {
+          "word": "years",
+          "score": 0.827831506729126
+        },
+        {
+          "word": "campus",
+          "score": 0.8254409432411194
+        }
+      ],
+      "cbow_correct": false,
+      "skipgram_results": [
+        {
+          "word": "students",
+          "score": 0.9959374070167542
+        },
+        {
+          "word": "to",
+          "score": 0.9956084489822388
+        },
+        {
+          "word": "years",
+          "score": 0.9954796433448792
+        },
+        {
+          "word": "and",
+          "score": 0.9951137900352478
+        },
+        {
+          "word": "campus",
+          "score": 0.9950857758522034
+        }
+      ],
+      "skipgram_correct": false
+    },
+    {
+      "analogy": "phd : research :: btech : ?",
+      "explanation": "PhD is to Research as BTech is to ?",
+      "expected": "project",
+      "cbow_results": [
+        {
+          "word": "and",
+          "score": 0.8407983183860779
+        },
+        {
+          "word": "learn",
+          "score": 0.8308686017990112
+        },
+        {
+          "word": "exam",
+          "score": 0.8294429183006287
+        },
+        {
+          "word": "of",
+          "score": 0.8283814191818237
+        },
+        {
+          "word": "students",
+          "score": 0.8278130292892456
+        }
+      ],
+      "cbow_correct": false,
+      "skipgram_results": [
+        {
+          "word": "minimum",
+          "score": 0.995076596736908
+        },
+        {
+          "word": "and",
+          "score": 0.9948258996009827
+        },
+        {
+          "word": "teaching",
+          "score": 0.9945963621139526
+        },
+        {
+          "word": "students",
+          "score": 0.9943968057632446
+        },
+        {
+          "word": "modern",
+          "score": 0.9943773746490479
+        }
+      ],
+      "skipgram_correct": false
+    },
+    {
+      "analogy": "mtech : postgraduate :: btech : ?",
+      "explanation": "MTech is to Postgraduate as BTech is to ?",
+      "expected": "undergraduate",
+      "cbow_results": [
+        {
+          "word": "ug",
+          "score": 0.7585504651069641
+        },
+        {
+          "word": "the",
+          "score": 0.7358346581459045
+        },
+        {
+          "word": "two",
+          "score": 0.7347733378410339
+        },
+        {
+          "word": "department",
+          "score": 0.7282816767692566
+        },
+        {
+          "word": "and",
+          "score": 0.7241726517677307
+        }
+      ],
+      "cbow_correct": false,
+      "skipgram_results": [
+        {
+          "word": "ug",
+          "score": 0.9938026070594788
+        },
+        {
+          "word": "two",
+          "score": 0.9931748509407043
+        },
+        {
+          "word": "the",
+          "score": 0.9928876757621765
+        },
+        {
+          "word": "all",
+          "score": 0.9926496148109436
+        },
+        {
+          "word": "provides",
+          "score": 0.9926044940948486
+        }
+      ],
+      "skipgram_correct": false
+    },
+    {
+      "analogy": "semester : exam :: course : ?",
+      "explanation": "Semester is to Exam as Course is to ?",
+      "expected": "assignment",
+      "cbow_results": [
+        {
+          "word": "learn",
+          "score": 0.8685401678085327
+        },
+        {
+          "word": "students",
+          "score": 0.8637875914573669
+        },
+        {
+          "word": "to",
+          "score": 0.8609049320220947
+        },
+        {
+          "word": "and",
+          "score": 0.8556822538375854
+        },
+        {
+          "word": "student",
+          "score": 0.8548325300216675
+        }
+      ],
+      "cbow_correct": false,
+      "skipgram_results": [
+        {
+          "word": "learn",
+          "score": 0.995989203453064
+        },
+        {
+          "word": "learning",
+          "score": 0.995693027973175
+        },
+        {
+          "word": "to",
+          "score": 0.9956607818603516
+        },
+        {
+          "word": "in",
+          "score": 0.9955561757087708
+        },
+        {
+          "word": "students",
+          "score": 0.9955542087554932
+        }
+      ],
+      "skipgram_correct": false
+    },
+    {
+      "analogy": "department : professor :: hostel : ?",
+      "explanation": "Department is to Professor as Hostel is to ?",
+      "expected": "student",
+      "cbow_results": [
+        {
+          "word": "and",
+          "score": 0.9093328714370728
+        },
+        {
+          "word": "the",
+          "score": 0.9072449207305908
+        },
+        {
+          "word": "for",
+          "score": 0.9056199789047241
+        },
+        {
+          "word": "students",
+          "score": 0.9044457077980042
+        },
+        {
+          "word": "pg",
+          "score": 0.9005986452102661
+        }
+      ],
+      "cbow_correct": false,
+      "skipgram_results": [
+        {
+          "word": "the",
+          "score": 0.996722936630249
+        },
+        {
+          "word": "provides",
+          "score": 0.9967063665390015
+        },
+        {
+          "word": "research",
+          "score": 0.9965213537216187
+        },
+        {
+          "word": "for",
+          "score": 0.996472179889679
+        },
+        {
+          "word": "provide",
+          "score": 0.9964069724082947
+        }
+      ],
+      "skipgram_correct": false
+    }
+  ]
+}

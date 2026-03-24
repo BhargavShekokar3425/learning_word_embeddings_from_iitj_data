@@ -1,0 +1,13 @@
+IIT Jodhpur has distinguished faculty members with expertise in various fields. Each professor
+        specializes in specific research areas. The Department of Computer Science and Engineering
+        focuses on algorithms, systems, and artificial intelligence. The Department of Electrical
+        Engineering covers electronics, communications, and power systems. Professor positions require
+        PhD and research experience. Mechanical Engineering department works on design, manufacturing,
+        and thermal sciences. Civil and Infrastructure Engineering addresses sustainable construction
+        and urban planning. Chemical Engineering focuses on process engineering and materials. The
+        Department of Bioscience and Bioengineering explores biotechnology and computational biology.
+        Physics department researches condensed matter and photonics. Every professor teaches courses
+        and guides research. Chemistry department works on organic synthesis and materials chemistry.
+        Mathematics department covers pure and applied mathematics. Humanities and Social Sciences
+        department provides liberal arts education. Assistant professor, associate professor, and
+        full professor constitute the faculty hierarchy.

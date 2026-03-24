@@ -1,0 +1,11 @@
+Teaching at IIT Jodhpur follows modern pedagogical approaches. Each professor uses innovative
+        teaching methods to help students learn effectively. Lectures are complemented by tutorials
+        where students learn through problem solving. Laboratory sessions help UG and PG students
+        learn practical skills. Students learn from textbooks, online resources, and research papers.
+        Professor office hours allow students to learn through one-on-one discussions. Teaching
+        assistants help students learn during tutorial sessions. The exam evaluates how well students
+        learn the course material. Students learn teamwork through group projects. Presentation skills
+        are developed as students learn to communicate technical concepts. Students learn programming,
+        mathematics, and domain specific knowledge. The curriculum is designed to help students learn
+        both theory and practice. UG students learn foundational concepts while PG students learn
+        advanced topics. Students learn from faculty who are experts in their fields.

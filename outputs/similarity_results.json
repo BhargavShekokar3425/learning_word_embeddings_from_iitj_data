@@ -1,0 +1,182 @@
+{
+  "cbow": {
+    "research": [
+      {
+        "word": "and",
+        "similarity": 0.9637839198112488
+      },
+      {
+        "word": "for",
+        "similarity": 0.9572766423225403
+      },
+      {
+        "word": "students",
+        "similarity": 0.9561530351638794
+      },
+      {
+        "word": "to",
+        "similarity": 0.951350748538971
+      },
+      {
+        "word": "the",
+        "similarity": 0.9507172107696533
+      }
+    ],
+    "student": [
+      {
+        "word": "and",
+        "similarity": 0.9640867114067078
+      },
+      {
+        "word": "students",
+        "similarity": 0.9596273899078369
+      },
+      {
+        "word": "of",
+        "similarity": 0.9577155709266663
+      },
+      {
+        "word": "the",
+        "similarity": 0.957658588886261
+      },
+      {
+        "word": "for",
+        "similarity": 0.9544047713279724
+      }
+    ],
+    "phd": [
+      {
+        "word": "the",
+        "similarity": 0.898233950138092
+      },
+      {
+        "word": "for",
+        "similarity": 0.8981304168701172
+      },
+      {
+        "word": "and",
+        "similarity": 0.8972602486610413
+      },
+      {
+        "word": "students",
+        "similarity": 0.8953758478164673
+      },
+      {
+        "word": "are",
+        "similarity": 0.8883387446403503
+      }
+    ],
+    "exam": [
+      {
+        "word": "and",
+        "similarity": 0.9683525562286377
+      },
+      {
+        "word": "in",
+        "similarity": 0.9645818471908569
+      },
+      {
+        "word": "students",
+        "similarity": 0.9632713794708252
+      },
+      {
+        "word": "the",
+        "similarity": 0.9622597694396973
+      },
+      {
+        "word": "to",
+        "similarity": 0.959489107131958
+      }
+    ]
+  },
+  "skipgram": {
+    "research": [
+      {
+        "word": "and",
+        "similarity": 0.9984227418899536
+      },
+      {
+        "word": "for",
+        "similarity": 0.9982924461364746
+      },
+      {
+        "word": "programs",
+        "similarity": 0.9982046484947205
+      },
+      {
+        "word": "professor",
+        "similarity": 0.998050332069397
+      },
+      {
+        "word": "students",
+        "similarity": 0.998041570186615
+      }
+    ],
+    "student": [
+      {
+        "word": "the",
+        "similarity": 0.9983758926391602
+      },
+      {
+        "word": "and",
+        "similarity": 0.9983591437339783
+      },
+      {
+        "word": "of",
+        "similarity": 0.9982832670211792
+      },
+      {
+        "word": "exam",
+        "similarity": 0.9981862306594849
+      },
+      {
+        "word": "for",
+        "similarity": 0.9981392025947571
+      }
+    ],
+    "phd": [
+      {
+        "word": "and",
+        "similarity": 0.9976720213890076
+      },
+      {
+        "word": "for",
+        "similarity": 0.9976487159729004
+      },
+      {
+        "word": "the",
+        "similarity": 0.9975162744522095
+      },
+      {
+        "word": "are",
+        "similarity": 0.997329831123352
+      },
+      {
+        "word": "students",
+        "similarity": 0.9972771406173706
+      }
+    ],
+    "exam": [
+      {
+        "word": "in",
+        "similarity": 0.9984134435653687
+      },
+      {
+        "word": "the",
+        "similarity": 0.9984052777290344
+      },
+      {
+        "word": "and",
+        "similarity": 0.9984010457992554
+      },
+      {
+        "word": "from",
+        "similarity": 0.9982171654701233
+      },
+      {
+        "word": "student",
+        "similarity": 0.9981862306594849
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+The examination system at IIT Jodhpur follows a continuous evaluation approach. Mid semester
+        exam tests student understanding of first half of course. End semester exam is a comprehensive
+        assessment of entire course material. Quiz exam and assignment marks contribute to the final
+        grade. Laboratory courses include practical exam and viva voce. Projects require presentations
+        and demonstrations. The grading system uses letter grades from A to F based on exam performance.
+        Grade Point Average is calculated from all exam scores. Students must maintain minimum CGPA to
+        continue in the program. Supplementary exam is available for failed courses. Academic probation
+        applies when exam performance falls below standards. Course registration happens at the start
+        of each semester before exam schedule is released. Exam hall allocation is done by examination
+        section. Students learn exam preparation strategies from seniors. Each exam tests different
+        aspects of student learning and understanding.

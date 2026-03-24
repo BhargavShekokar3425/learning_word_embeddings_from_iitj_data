@@ -1,0 +1,12 @@
+Indian Institute of Technology Jodhpur offers various undergraduate and postgraduate programs.
+        The BTech program is a four year UG undergraduate course offered in multiple disciplines.
+        Students can pursue BTech in Computer Science and Engineering, Electrical Engineering,
+        Mechanical Engineering, Civil Engineering, Chemical Engineering, Bioscience and Bioengineering,
+        and Artificial Intelligence and Data Science. UG students learn fundamental concepts in their
+        first two years. The MTech program is a two year PG postgraduate course focusing on advanced
+        research and specialized knowledge. PG students learn specialized topics and conduct research.
+        PhD programs at IIT Jodhpur are research intensive and span three to five years. The institute
+        also offers MSc programs in Physics, Chemistry, and Mathematics. Dual degree programs combining
+        BTech and MTech are available for exceptional students. UG and PG academic curriculum emphasizes
+        both theoretical foundations and practical applications. Students learn through lectures,
+        tutorials, and laboratory sessions.
