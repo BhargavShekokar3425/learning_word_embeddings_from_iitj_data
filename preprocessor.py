@@ -1,6 +1,5 @@
 """
 Text Preprocessing Module for Word2Vec Assignment
-=================================================
 This handles all the messy text cleaning stuff.
 Tokenization, lowercasing, removing junk, etc.
 
@@ -205,8 +204,16 @@ class TextPreprocessor:
         with open(corpus_path, 'w', encoding='utf-8') as f:
             for sentence in all_sentences:
                 f.write(' '.join(sentence) + '\n')
+
+        # keep a second copy as corpus.txt to match assignment naming expectations
+        # this file has the same content as cleaned_corpus.txt
+        corpus_alias_path = os.path.join(output_path, "corpus.txt")
+        with open(corpus_alias_path, 'w', encoding='utf-8') as f:
+            for sentence in all_sentences:
+                f.write(' '.join(sentence) + '\n')
         
         print(f"Processed corpus saved to {corpus_path}")
+        print(f"Assignment corpus file saved to {corpus_alias_path}")
         print(f"Total sentences: {len(all_sentences)}")
         
         # save vocabulary

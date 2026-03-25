@@ -1,7 +1,5 @@
-#!/usr/bin/env python3
 """
 Main Script for Word2Vec Assignment
-====================================
 This is the entry point for running the entire assignment.
 Run this script to execute all tasks from data collection to visualization.
 
@@ -77,6 +75,7 @@ def task1_data_preparation():
     print(f"  - Vocabulary size: {stats['vocabulary_size']}")
     print(f"  - Word cloud saved to: ./outputs/wordcloud.png")
     print(f"  - Cleaned corpus saved to: ./data/processed/cleaned_corpus.txt")
+    print(f"  - Assignment corpus saved to: ./data/processed/corpus.txt")
     
     return sentences, stats
 
@@ -208,6 +207,7 @@ def run_all_tasks():
     print("📁 data/")
     print("   └── raw/              - Raw collected documents")
     print("   └── processed/        - Cleaned corpus and vocabulary")
+    print("       └── corpus.txt    - Assignment corpus file")
     print("📁 models/               - Trained Word2Vec models")
     print("📁 outputs/")
     print("   └── wordcloud.png     - Word cloud visualization")

@@ -23,6 +23,7 @@ prob1/                      # Learning from IITJ corpus
 ├── data/
 │   ├── raw/               # Raw collected documents
 │   └── processed/         # Cleaned corpus
+│       └── corpus.txt     # Required assignment corpus file
 ├── models/                # Trained Word2Vec models
 └── outputs/               # Generated visualizations and results
 ```
@@ -103,6 +104,7 @@ python visualizer.py        # Only create visualizations
 ### Task 1: Dataset Preparation
 - Collects textual data from IIT Jodhpur sources
 - Preprocesses text (tokenization, lowercasing, cleaning)
+- Keeps assignment corpus as `data/processed/corpus.txt`
 - Generates statistics and word cloud
 
 **Dataset Statistics:**

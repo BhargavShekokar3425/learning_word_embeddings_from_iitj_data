@@ -1,6 +1,5 @@
 """
 Data Collection Module for IIT Jodhpur Word2Vec Assignment
-===========================================================
 This script scrapes textual data from various IIT Jodhpur sources.
 We're targeting: official website, academic regulations, faculty pages, etc.
 

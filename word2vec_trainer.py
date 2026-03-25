@@ -1,7 +1,6 @@
 """
 Word2Vec Model Training Module
-==============================
-This is where the magic happens - training CBOW and Skip-gram models.
+training CBOW and Skip-gram models.
 We experiment with different hyperparameters as required by the assignment.
 
 Author: Bhargav Shekokar (B23CS1008)

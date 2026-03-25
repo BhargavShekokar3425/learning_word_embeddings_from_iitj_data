@@ -1,8 +1,5 @@
 """
 Semantic Analysis Module for Word2Vec Assignment
-=================================================
-This handles all the cool stuff - finding similar words,
-doing analogy experiments, etc.
 
 Author: Bhargav Shekokar (B23CS1008)
 Course: NLU Assignment 2

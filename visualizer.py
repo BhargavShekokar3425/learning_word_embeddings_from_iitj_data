@@ -1,8 +1,5 @@
 """
 Visualization Module for Word2Vec Assignment
-=============================================
-Creates pretty visualizations of word embeddings using PCA and t-SNE.
-This is for Task 4 of the assignment.
 
 Author: Bhargav Shekokar (B23CS1008)
 Course: NLU Assignment 2

@@ -8,7 +8,7 @@
     "min_count": 1,
     "epochs": 10,
     "vocabulary_size": 633,
-    "training_time": 0.03,
+    "training_time": 0.04,
     "model_path": "./models/cbow_dim50_win5_neg5.model"
   },
   {
@@ -20,7 +20,7 @@
     "min_count": 1,
     "epochs": 10,
     "vocabulary_size": 633,
-    "training_time": 0.03,
+    "training_time": 0.04,
     "model_path": "./models/cbow_dim100_win5_neg5.model"
   },
   {
@@ -56,7 +56,7 @@
     "min_count": 1,
     "epochs": 10,
     "vocabulary_size": 633,
-    "training_time": 0.06,
+    "training_time": 0.05,
     "model_path": "./models/skipgram_dim100_win5_neg5.model"
   },
   {
@@ -104,7 +104,7 @@
     "min_count": 1,
     "epochs": 10,
     "vocabulary_size": 633,
-    "training_time": 0.05,
+    "training_time": 0.04,
     "model_path": "./models/skipgram_dim100_win3_neg5.model"
   },
   {
